@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="jpaccident",
-    version="0.0.1",
+    version="0.0.2",
     author="Tsuyoshi Hine",
     author_email="tsuyoshi.h0920@gmail.com",
     description='Package for visualization of aggregate data on fatalities in traffic accidents',
