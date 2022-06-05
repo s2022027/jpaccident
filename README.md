@@ -1,1 +1,4 @@
 # jpaccident
+'''
+pip install jpaccident
+'''
