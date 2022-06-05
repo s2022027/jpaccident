@@ -6,8 +6,8 @@ import os
 #long_description = (this_directory / "README.md").read_text()
 
 
-with open("README.md", "r", encoding="utf-8") as fh:
-    long_description = fh.read()
+#with open("README.md", "r", encoding="utf-8") as fh:
+    #long_description = fh.read()
 
 setuptools.setup(
     name="jpaccident",
@@ -15,8 +15,12 @@ setuptools.setup(
     author="Tsuyoshi Hine",
     author_email="tsuyoshi.h0920@gmail.com",
     description='Package for visualization of aggregate data on fatalities in traffic accidents',
-    long_description=long_description,
+    #long_description=long_description,
+    #long_description_content_type="text/markdown",
+    
+    long_description=open(path.join(here, 'README.md'), encoding='utf-8').read().replace("\r", "")
     long_description_content_type="text/markdown",
+    
     url="https://github.com/s2022027/jpaccident",
     project_urls={
         "Bug Tracker": "https://github.com/s2022027/jpaccident",
