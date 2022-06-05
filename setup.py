@@ -10,7 +10,7 @@ setuptools.setup(
     author_email="tsuyoshi.h0920@gmail.com",
     description='Package for visualization of aggregate data on fatalities in traffic accidents',
     long_description=long_description,
-    long_description_content_type="text/markdown/image/png",
+    long_description_content_type="text/markdown",
     url="https://github.com/s2022027/jpaccident",
     project_urls={
         "Bug Tracker": "https://github.com/s2022027/jpaccident",
