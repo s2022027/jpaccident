@@ -14,7 +14,7 @@ setuptools.setup(
     author="Tsuyoshi Hine",
     author_email="tsuyoshi.h0920@gmail.com",
     description='Package for visualization of aggregate data on fatalities in traffic accidents',
-    long_description=file: README.md,
+    long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/s2022027/jpaccident",
     project_urls={
