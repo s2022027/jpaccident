@@ -17,7 +17,7 @@ setuptools.setup(
     author_email="tsuyoshi.h0920@gmail.com",
     description='Package for visualization of aggregate data on fatalities in traffic accidents',
     long_description=long_description,
-    long_description_content_type="text/markdown",
+    long_description_content_type="text/plain",
     
     #long_description=open(path.join(here, 'README.md'), encoding='utf-8').read().replace("\r", "")
     #long_description_content_type="text/markdown",
